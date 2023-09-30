@@ -1,0 +1,12 @@
+.box{
+    width: 200px;
+    border: 1px solid black;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+}
+/* .container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+} */
