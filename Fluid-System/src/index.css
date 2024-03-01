@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to top, #fff9b9, #fffef5);
+  overflow-y: auto;
+}
+
+
+/* Header CSS */
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.header-section{
+  max-width: 18rem;
+}
+
+.header-logo{
+  width: 100%;
+}
+
+
+/* Home CSS */
+.bold{
+  font-weight: bold;
+}
+
+.home{
+  display: flex;
+  padding: 0 0.7rem;
+}
+.home-award{
+  flex-basis: 30%
+}
+.home-award img{
+  width: 100%;
+}
+
+.home-section{
+  flex-basis: 70%
+}
+.home-section-award{
+  width: 90%;
+}
+.home-section img{
+  width: 100%;
+}
+
+
+/* Products CSS */
+.products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 0 0.7rem;
+}
+.products img{
+  width: 70%;
+}
+
+
+/* Footer CSS */
+.footer-line{
+  border: 1px #ec3237 solid;
+}
+.footer{
+  text-align: center;
+}
+.footer-type{
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0 1.5rem;
+}
+.span-color{
+  color: #ec3237;
+  margin: 0.3rem;
+}
+.footer-social{
+  background-color: #ec3237;
+  display: flex;
+  justify-content: space-evenly;
+  height: 7rem;
+  align-items: center;
+  padding: 1rem;
+}
+.icon{
+  padding: 1rem;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-social{
+    flex-direction: column;
+  }
+}
